@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kai's portfolio</title>
+    <link rel="stylesheet" href="./css/style.min.css">
+    <meta name="description" content="安村海のポートフォリオです">
+    <!--jQueryの導入-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="./jQuery/script.js"></script>
+    <!--wow.jsの導入-->
+    <link rel="stylesheet" href="./css/animate.min.css">
+    <script src="./jQuery/wow.min.js"></script>
+    <script>new WOW().init();</script>
+    <!--ripples.jsの導入(トップページの波紋)-->
+    <script src="./jQuery/jquery.ripples-min.js"></script>
+    <!--slick(スライダー)の導入-->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+</head>
+<body>
+    <header>
+        <nav class="header-nav">
+            <ul class="header-nav-list">
+                <li class="nav-list-item"><a href="#about" class="nav-item-link">about</a></li>
+                <li class="nav-list-item"><a href="#skills" class="nav-item-link">skill</a></li>
+                <li class="nav-list-item"><a href="#works" class="nav-item-link">works</a></li>
+                <li class="nav-list-item"><a href="#blog" class="nav-item-link">blog</a></li>
+                <li class="nav-list-item"><a href="#contact" class="nav-item-link">contact</a></li>
+            </ul>
+        </nav>
+        <span class="nav-toggle">
+            <i></i>
+            <i></i>
+            <i></i>
+        </span>
+        <nav class="sp-nav">
+            <ul class="sp-nav-list">
+                <li class="sp-nav-list-item"><a href="#about" class="sp-nav-item-link">about</a></li>
+                <li class="sp-nav-list-item"><a href="#skills" class="sp-nav-item-link">skill</a></li>
+                <li class="sp-nav-list-item"><a href="#works" class="sp-nav-item-link">works</a></li>
+                <li class="sp-nav-list-item"><a href="#blog" class="sp-nav-item-link">blog</a></li>
+                <li class="sp-nav-list-item"><a href="#contact" class="sp-nav-item-link">contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="top">
+        <div class="title-area">
+            <h1 class="top-title">Kai's<br>Portfolio</h1>
+        </div>
+        <div class="link-area">
+            <a href="https://twitter.com/kai_front" class="twitter-link" target="_blank" rel="noopener noreferrer"><i></i>Twitter</a>
+            <a href="#contact" class="contact-link">お問い合わせ</a>
+        </div>
+    </section>
+    <!-- /.top -->
+    
+    <section id="about">
+        <h2 class="section-title">about</h2>
+        <div class="prof">
+            <div class="about-top">
+                <div class="about-pic wow slideInLeft">
+                    <img src="./images/prof.jpeg" alt="顔写真">
+                </div>
+                <div class="personal wow slideInRight">
+                    <dl class="personal-info">
+                        <div class="info-item">
+                            <dt class="info-itemTitle">名前</dt>
+                            <dd class="info-itemSepalation">/</dd>
+                            <dd class="info-itemInner">安村　海</dd>
+                        </div>
+                        <div class="info-item">
+                            <dt class="info-itemTitle">生年月日</dt>
+                            <dd class="info-itemSepalation">/</dd>
+                            <dd class="info-itemInner">1995/2/9</dd>
+                        </div>
+                        <div class="info-item">
+                            <dt class="info-itemTitle">年齢</dt>
+                            <dd class="info-itemSepalation">/</dd>
+                            <dd class="info-itemInner">25歳</dd>
+                        </div>
+                        <div class="info-item">
+                            <dt class="info-itemTitle">希望職種</dt>
+                            <dd class="info-itemSepalation">/</dd>
+                            <dd class="info-itemInner">コーダー</dd>
+                        </div>
+                        <div class="info-item">
+                            <dt class="info-itemTitle">趣味</dt>
+                            <dd class="info-itemSepalation">/</dd>
+                            <dd class="info-itemInner">釣り,ネットカフェ巡り,苔テラリウム</dd>
+                        </div>
+                    </dl>
+                </div>
+            </div>
+            <div class="about-bottom">
+                <div class="background wow slideInLeft">
+                    <p class="bg-title">経緯</p>
+                    <p class="bg-text">　前職は地元の大阪府泉大津市というところで不動産営業をしておりました。<br>　不動産業界の集客の大半は大手不動産情報サイトからの紹介や問い合わせですが、自社サイトからの問い合わせの方が成約率が高いので、そこを伸ばせないかと考えたのがWEB制作業界に興味を持ったきっかけでした。<br>　はじめはProgateで独学していましたがさらなるレベルアップのために30Daysトライアルを受講しました。<br>　現在はサイト制作の勉強をしていますが、WEBマーケティングも勉強し、CVを取れるWEBサイトを作成することが目標です。また、不動産情報サイトに頼らずに自社サイトからの集客で成約まで結び付けられるサイトを制作することも大きな目標の一つです。</p>
+                </div>
+                <div class="slef-pr wow slideInRight">
+                    <p class="pr-title">自己PR</p>
+                    <p class="pr-text">　私の強みは粘り強さです。<br>　未経験で不動産営業を始めた時は、反響(お客様からの問い合わせ)が回ってこないので、没リスト(破談になったり連絡が取れない顧客のリスト)のテレアポから成約に繋げるのが新人の仕事でした。<br>　１ヶ月目は契約が０でそれが悔しくて、２ヶ月目は出勤前にチラシ撒きをして、業務時間はモデルハウスで見学希望のお客様を待ちながらテレアポをして、退社後はモデルハウスや分譲地へのルート確認をしていました。<br>　すると、それが功を奏したのか初契約をとることができました。<br>　プログラミング学習においても、受講していた講座ではメンターのサポート制度もありましたが技術面での質問は一切せずに分からないところは自分で調べて完走しました。<br>　時間もかかりましたし、プロのアドバイスを受けなかった点で損をした部分もあるかもしれませんが、現場では重要な自走力を
+                    身に付けることができたと思っております。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /.about -->
+
+    <section id="skills">
+        <h2 class="section-title">skills</h2>
+        <div class="skill-wrap">
+            <div class="skill-pic wow slideInLeft">
+                <img src="./images/skill.png" alt="スキルゲージ">
+            </div>
+            <div class="skill-bg wow slideInRight">
+                <p class="skill-bgTitle">学習方法</p>
+                <p class="skill-bgText">　30Daysトライアルという、オンラインのプログラミング学習サービスで学習しました。<br>　HTML/CSS、JavaScript(jQuery)、PHP、Bootstrapの基礎を学習し、講座を通してLPとHPを６個制作しました。<br>　講座は現役でWEB制作をしている方がテキストの作成から講義までを担当されており、デザインカンプをパーフェクトピクセルでコーディングしたり、実在の企業サイトをワードプレス化したり、現場で通用するスキルを身に付けることができました。</p>
+            </div>
+        </div>
+    </section>
+    <!-- /.skill -->
+
+    <section id="works">
+        <h2 class="section-title">works</h2>
+        <div class="works-wrap">
+            <div class="work wow slideInUp">
+                <div class="work-pic">
+                    <img src="./images/work.png" alt="制作例">
+                </div>
+                <div class="description-wrap">
+                    <p class="work-description">工夫した点</p>
+                    <p class="work-text"><span class="work-text-title">TOPページ</span><br>ニュースセクションでは、最新記事５件を表示するように設定しました。キャストセクションでは、メインキャスト３人をカスタムフィールドで設定できるようにしました。スケジュールセクションでは、イベントの詳細をカスタムフィールドで投稿できようにしました。(各固定ページも同様)<br><span class="work-text-title">Q&Aセクション</span><br>コメントをした人の名前、肩書き、本文をカスタムフィールドで投稿できるようにしました。<br><span class="work-text-title">スマートフォン表示</span><br>キャストの顔写真、担当、名前、専門、紹介文をカスタムフィールドで投稿できるようにしました。<br><span class="work-text-title">INQUIRYページ</span><br>プラグインのcontact form 7を使用し、編集しやすいようにしました。</p>
+                </div>
+            </div>
+            <div class="work">
+                <div class="work-pic ">
+                    <img src="./images/work2.png" alt="制作例2">
+                </div>
+                <div class="description-wrap">
+                    <p class="work-description">工夫した点</p>
+                    <p class="work-text"><span class="work-text-title">Resultsセクション</span><br>表示アイテムが5つあるので、スライダーを使用し見た目をすっきりさせ、２枚半表示させることでできるだけ多くのアイテムが目に入るようにしました。<br><span class="work-text-title">Q&Aセクション</span><br>こちらも見た目をすっきりさせるために質問事項は残し、回答はアコーディオンで開けるようにしました。<br><span class="work-text-title">スマートフォン表示</span><br>メニューリストの文字が小さくなりすぎないようにハンバーガーメニューを表示させ、気になるセクションがあれば開けるようにしました。</p>
+                   <div class="sample-site-link"><a href="./works/LP-3/index.html" target="_blank" rel="noopener noreferrer">サイトを表示する</a></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /.work -->
+
+    <section id="blog">
+        <h2 class="section-title">blog</h2>
+        <div class="blog-wrap">
+            <div class="post-list">
+                <article class="post wow slideInLeft">
+                    <div class="post-pic">
+                        <img src="./images/thumnail.PNG" alt="投稿画像">
+                    </div>
+                    <div class="post-content">
+                        <h3 class="post-title">Comming soon...</h3>
+                        <div class="post-time">
+                            <div class="post-time-j">10</div>
+                            <div class="post-time-my">Oct.2020</div>
+                        </div>
+                    </div>
+                </article>
+                <article class="post wow slideInRight">
+                    <div class="post-pic">
+                        <img src="./images/thumnail.PNG" alt="投稿画像">
+                    </div>
+                    <div class="post-content">
+                        <h3 class="post-title">Comming soon...</h3>
+                        <div class="post-time">
+                            <div class="post-time-j">10</div>
+                            <div class="post-time-my">Oct.2020</div>
+                        </div>
+                    </div>
+                </article>
+                <article class="post wow slideInLeft">
+                    <div class="post-pic">
+                        <img src="./images/thumnail.PNG" alt="投稿画像">
+                    </div>
+                    <div class="post-content">
+                        <h3 class="post-title">Comming soon...</h3>
+                        <div class="post-time">
+                            <div class="post-time-j">10</div>
+                            <div class="post-time-my">Oct.2020</div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            <div class="more-link wow slideInUp">
+                <a href="" class="blog-link">MORE</a>
+            </div>
+        </div>
+    </section>
+    <!-- /.blog -->
+
+    <section id="contact">
+        <h2 class="section-title">contact</h2>
+        <div class="contact-form">
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfvi4DQLa0wr0UkaVi6T6XsdnrtZMpOtGRNcc6AdHbDqPFrWw/viewform?embedded=true" width="" height="1300px" frameborder="0" marginheight="0" marginwidth="0">読み込んでいます…</iframe>
+        </div>
+    </section>
+    <!-- /.contact -->
+
+    <footer>
+        <p class="copyright">©️kai's portfolio</p>
+    </footer>
+
+    <!-- to top スクロール -->
+    <div class="floating">
+        <a href="#top"></a>
+    </div>
+
+
+</body>
+</html>
