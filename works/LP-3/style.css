@@ -1967,3 +1967,7 @@ input[type="checkbox"]:checked + .contact_privacyLabel:after {
     line-height: 15px;
   }
 }
+
+.contact_text {
+  display: none;
+}
